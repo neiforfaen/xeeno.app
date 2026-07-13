@@ -1,4 +1,4 @@
-import { MoveRight, PhoneCall, User } from "lucide-react"
+import { MoveRight, User } from "lucide-react"
 import { Badge } from "#/components/ui/badge"
 import { Button } from "#/components/ui/button"
 import { Footer } from "./_components/footer"
@@ -20,10 +20,10 @@ export default function Home() {
                   Master frontend through real challenges
                 </h1>
                 <p className="max-w-2xl text-center text-lg text-muted-foreground leading-relaxed tracking-tight md:text-xl">
-                  Build skills by solving real problems. Learn how systems break,
-                  how users navigate your interfaces, how performance degrades
-                  under load. No tutorials. No sales calls. Just code and
-                  solutions.
+                  Build skills by solving real problems. Learn how systems
+                  break, how users navigate your interfaces, how performance
+                  degrades under load. No tutorials. No sales calls. Just code
+                  and solutions.
                 </p>
               </div>
               <div className="flex flex-row gap-3">
@@ -62,18 +62,19 @@ export default function Home() {
                       Real problems from production
                     </h3>
                     <p className="max-w-xs text-base text-muted-foreground">
-                      Learn patterns that actually work. Systems fail in specific ways. We teach you how to recognize and prevent them.
+                      Learn patterns that actually work. Systems fail in
+                      specific ways. We teach you how to recognize and prevent
+                      them.
                     </p>
                   </div>
                 </div>
                 <div className="flex aspect-square flex-col justify-between rounded-md bg-muted p-6">
                   <User className="h-8 w-8 stroke-1" />
                   <div className="flex flex-col">
-                    <h3 className="text-xl tracking-tight">
-                      Instant feedback
-                    </h3>
+                    <h3 className="text-xl tracking-tight">Instant feedback</h3>
                     <p className="max-w-xs text-base text-muted-foreground">
-                      Write code. See results immediately. Fast iteration beats slow review every time.
+                      Write code. See results immediately. Fast iteration beats
+                      slow review every time.
                     </p>
                   </div>
                 </div>
@@ -85,7 +86,8 @@ export default function Home() {
                       Build your portfolio
                     </h3>
                     <p className="max-w-xs text-base text-muted-foreground">
-                      Every challenge solved is proof of work. Link it. Deploy it. Let your code do the talking.
+                      Every challenge solved is proof of work. Link it. Deploy
+                      it. Let your code do the talking.
                     </p>
                   </div>
                 </div>
@@ -96,7 +98,8 @@ export default function Home() {
                       Learn at your pace
                     </h3>
                     <p className="max-w-xs text-base text-muted-foreground">
-                      No cohorts. No deadlines. Complexity grows as you grow. Master fundamentals before moving forward.
+                      No cohorts. No deadlines. Complexity grows as you grow.
+                      Master fundamentals before moving forward.
                     </p>
                   </div>
                 </div>
