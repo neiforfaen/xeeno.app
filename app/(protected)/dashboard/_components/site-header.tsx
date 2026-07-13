@@ -2,6 +2,7 @@
 
 import { Separator } from "#/components/ui/separator"
 import { SidebarTrigger } from "#/components/ui/sidebar"
+import { usePageTitle } from "#/hooks/use-page-title"
 
 export const SiteHeader = () => (
   <header className="flex h-(--header-height) shrink-0 items-center gap-2 border-b transition-[width,height] ease-linear group-has-data-[collapsible=icon]/sidebar-wrapper:h-(--header-height)">
@@ -11,7 +12,7 @@ export const SiteHeader = () => (
         className="mx-2 h-4 data-vertical:self-auto"
         orientation="vertical"
       />
-      <h1 className="font-medium text-base capitalize">page title</h1>
+      <h1 className="font-medium text-base capitalize">{usePageTitle()}</h1>
     </div>
   </header>
 )
